@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Visit Brunei 🇧🇳</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">🇧🇳 Visit Brunei</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="destinations.html">Locations</a>
+                <a href="destinationsDetails.html">Details</a>
+                <a href="about_us.html">About</a>
+                <a href="contact_us.html">Contact</a>
+            </div>
+
+            <div class="nav-actions">
+                <a href="favourites.html">♡ Favourites</a>
+                <button id="themeToggle">🌓</button> 
+            </div>
+        </nav>
+    </header>
+
+    <!--saved favourites-->
+    <main>
+        <section class="hero">
+            <p class="eyebrow">Your saved collection</p>
+            <h1>My favourite locations</h1>
+            <p>
+                Keep all the places you like in one centralized place
+            </p>
+        </section>
+
+        <section class="popular">
+            <div class="section-heading">
+                <h2>Saved locations</h2>
+                <p>All the locations that you saved</p>
+            </div>
+
+            <p id="emptyFavourites">
+                You didint save anything.
+            </p>
+
+            <div id="favouritesGrid" class="attraction-grid"></div>
+
+            <a href="destinations.html" class="btn">Explore back at location</a>
+        </section>
+    </main>
+    <footer>
+        <p>Visit Brunei, Discover Brunei one place at time.</p>
+        <p>&copy; 2026 Visit Brunei 🇧🇳. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

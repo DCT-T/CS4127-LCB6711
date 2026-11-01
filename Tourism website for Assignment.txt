@@ -1,0 +1,55 @@
+Tourism website for Assignment
+
+Goals:
+3 Java Script Functions
+5 Webpages 
+Wire frame
+
+Important things to do:
+Accessible programming 
+	Add alts to images and videos
+
+2. Make the website be viewed 
+	PC
+	Mobile
+	Tablet
+
+3. The three JavaScript functions
+	Dark mode
+	auto list
+	Add to list
+
+4. The pages
+Home page
+Destinations Page
+Destinations detail pages
+About Us
+Contact Us
+
+5. Design
+colours light:
+Navy #153453, pink #FF75A8, white #FFFFFF.
+
+colours dark:
+Background: #071B2D
+Cards: #102A43
+Text: #F5F7FA
+Accent pink: #FF75A8
+Navigation bar: #0B2239
+
+
+REPORT-------------------
+INTRO
+DESIGN
+DEV PROCESS
+JAVA FEATURES 3 NAME AND DESC
+ACCESBILITY AND RESPONSIVENESS
+TESTING AND DEPLOYMENT
+CONCLUSION
+REFERENCES
+-----
+
+PROBLEM encountered 
+inconsistent colouring  (no defined palleted)
+css wrong name .darkmode instead of darkmode
+2 images in the assignment folder

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Visit Brunei 🇧🇳</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">🇧🇳 Visit Brunei</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="destinations.html">Locations</a>
+                <a href="destinationsDetails.html">Details</a>
+                <a href="about_us.html">About</a>
+                <a href="contact_us.html">Contact</a>
+            </div>
+
+            <div class="nav-actions">
+                <a href="favourites.html">♡ Favourites</a>
+                <button id="themeToggle">🌓</button> 
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <p class="eyebrow">Explore more of what makes Brunei unique!</p>
+            <h1>Find your next location!</h1>
+            <p>
+                From peaceful beaches to the bustling of Bandar Seri Begawan, 🇧🇳 Visit Brunei helps you discover the perfect location for your next trip. Our curated guides and travel tips ensure that you have all the information you need to make your journey unforgettable.
+            </p>
+        </section>
+
+        <section class="popular">
+            <div class="section-heading">
+                <h2>Explore these locations</h2>
+                <p>Where will your next journey be?</p>
+            </div>
+
+            <input type="text" id="destinationSearch" placeholder="Search for a landmark...">
+            <div class="attraction-grid" id="destinationGrid">
+
+                <!--Omar Ali Saifuddien Mosque-->
+                <article class="attraction-card">
+                    <img src="https://live.staticflickr.com/8123/8619950181_60409278cb_b.jpg" 
+                    alt="Omar Ali Saifuddien Mosque, Brunei">
+                    <div class="attraction-content">
+                        <h3>Omar Ali Saifuddien Mosque</h3>
+                        <p>Discover one of Brunei's iconic landmarks, The Omar Ali Saifuddien Mosque!</p>
+                        <a href="destinationsDetails.html?destination=mosque" class="btn">Discover More →</a>
+                    </div>
+                </article>
+
+                <!--Kampong Ayer-->
+                <article class="attraction-card">
+                    <img src="https://news.cgtn.com/news/3d3d414f7855544e34457a6333566d54/img/9cf02eb3f36d4d16948065f54deddb4d/9cf02eb3f36d4d16948065f54deddb4d.jpg" 
+                    alt="Kampong Ayer, Brunei">
+
+                    <div class="attraction-content">
+                        <h3>Kampong Ayer</h3>
+                        <p>Explore the world's largest water village in Brunei Darussalam!</p>
+                        <a href="destinationsDetails.html?destination=kampong" class="btn">Discover More →</a>
+                    </div>
+                </article>
+
+                <!--Ulu Temburong National Park-->
+                <article class="attraction-card">
+                    <img src="https://i0.wp.com/borneoadventure.com/v3/wp-content/uploads/2012/01/BRN_DK_5221.jpg?fit=2000%2C1331&quality=60&strip=all&ssl=1" 
+                    alt="Ulu Temburong National Park, Brunei">
+
+                    <div class="attraction-content">
+                        <h3>Ulu Temburong National Park</h3>
+                        <p>Discover Brunei's "Green Jewel" where ancient rainforest teeming with vibrant wildlife.</p>
+                        <a href="destinationsDetails.html?destination=temburong" class="btn">Discover More →</a>
+                    </div>
+                </article>
+
+                <!--Royal Regalia Museum-->
+                <article class="attraction-card">
+                    <img src="https://cms.brightsun.co.uk/uploads/files/Royal-Regalia-Museum.jpg" 
+                    alt="Royal Regalia Museum, Brunei">
+
+                    <div class="attraction-content">
+                        <h3>Royal Regalia Museum</h3>
+                        <p>Discover the Royal Regalia Museum, home to the sulanate's heirlooms and regalia.</p>
+                        <a href="destinationsDetails.html?destination=museum" class="btn">Discover More →</a>
+                    </div>
+                </article>
+
+                <!--Billionth barrel monument-->
+                <article class="attraction-card">
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/75/32/b3/photo0jpg.jpg?w=1200&h=1200&s=1" 
+                    alt="Billionth barrel monument, Brunei">
+
+                    <div class="attraction-content">
+                        <h3>Billionth Barrel Monument</h3>
+                        <p>Built in 1991, the Billionth Barrel Monument resides along the beach in Seria and is a symbol of achievement in Brunei's oil production.</p>
+                        <a href="destinationsDetails.html?destination=monument" class="btn">Discover More →</a>
+                    </div>
+                </article>
+
+                <!--Teraja Waterfall-->
+                <article class="attraction-card">
+                    <img src="https://www.bruneitourism.com/wp-content/uploads/2024/10/teraja-waterfall-06.webp" 
+                    alt="Teraja Waterfall, Brunei">
+
+                    <div class="attraction-content">
+                        <h3>Teraja Waterfall</h3>
+                        <p>Visit Teraja Waterfall by hiking through the dense jungle and crossing a few streams to one of Brunei's natural beauty.</p>
+                        <a href="destinationsDetails.html?destination=waterfall" class="btn">Discover More →</a>
+                    </div>
+                </article>
+
+                <!--Bukit Ambog-->
+                <article class="attraction-card">
+                    <img src="https://www.bruneitourism.com/wp-content/uploads/2025/02/bukit-ambog-alltrails-LeroyJunior.webp" 
+                    alt="Bukit Ambog, Brunei">
+
+                    <div class="attraction-content">
+                        <h3>Bukit Ambog</h3>
+                        <p>Lace up your hiking boots and hit the trail at Bukit Ambog in Tutong. You can take it easy on this beginner-friendly trail and enjoy the natural surroundings as you hike.</p>
+                        <a href="destinationsDetails.html?destination=ambog" class="btn">Discover More →</a>
+                    </div>
+                </article>
+
+                 <!--Tasek Merimbun-->
+                <article class="attraction-card">
+                    <img src="https://www.vacationstravel.com/wp-content/uploads/2022/01/Tasek-Merimbun-1024x683.jpg" 
+                    alt="Tasek Merimbun, Brunei">
+
+                    <div class="attraction-content">
+                        <h3>Tasek Merimbun</h3>
+                        <p>Visit Brunei's largest natural lake and designated ASEAN heritage park. Renowned for its blackwater, it is also a ideal place for wildlife photographer to take pictures.</p>
+                        <a href="destinationsDetails.html?destination=merimbun" class="btn">Discover More →</a>
+                    </div>
+                </article>
+
+                <!--Freme Rainforest Lodge & Adventure Park-->
+                <article class="attraction-card">
+                    <img src="https://www.bruneitourism.com/wp-content/uploads/2025/02/freme-rainforest-gmaps-chiew-weecheng.webp" 
+                    alt="Freme Rainforest Lodge & Adventure Park, Brunei">
+
+                    <div class="attraction-content">
+                        <h3>Freme Rainforest Lodge & Adventure Park</h3>
+                        <p>Visit Freme Rainforest Lodge & Adventure Park for a relaxing time in Brunei's green jewel!</p>
+                        <a href="destinationsDetails.html?destination=freme" class="btn">Discover More →</a>
+                    </div>
+                </article>
+
+                <!--Abode River Cruise-->
+                <article class="attraction-card">
+                    <img src="https://travel.asean.or.jp/wp-content/uploads/2023/07/TheAbode_RiverCruise-scaled.jpg" 
+                    alt="Abode River Cruise, Brunei">
+
+                    <div class="attraction-content">
+                        <h3>Abode River Cruise</h3>
+                        <p>Explore Brunei's flora and fauna while enjoying the cool river of the breeze of the Labu River on our exclusive pontoon boat</p>
+                        <a href="destinationsDetails.html?destination=cruise" class="btn">Discover More →</a>
+                    </div>
+                </article>
+
+                <!--Pantai Seri Kenangan-->
+                <article class="attraction-card">
+                    <img src="https://wallpapers.com/images/hd/brunei-pantai-seri-kenangan-beach-qgqxs0z6cucwj55b.jpg" 
+                    alt="Pantai Seri Kenangan, Brunei">
+
+                    <div class="attraction-content">
+                        <h3>Seri Kenangan Beach</h3>
+                        <p>The Seri Kenangan beach is a straight stretch of beach where you can park yourself in one of the shelters and have a BBQ.</p>
+                        <a href="destinationsDetails.html?destination=kenangan" class="btn">Discover More →</a>
+                    </div>
+                </article>
+
+                <!--Tanjong Batu Beach-->
+                <article class="attraction-card">
+                    <img src="https://www.bruneitourism.com/wp-content/uploads/2024/10/tanjungbatu-05.webp" 
+                    alt="Tanjong Batu Beach, Brunei">
+
+                    <div class="attraction-content">
+                        <h3>Tanjong Batu Beach</h3>
+                        <p> hidden gem at the end of a long, narrow road, Tanjong Batu Beach is a fairly new spot for sunset chasers and exercise buffs.</p>
+                        <a href="destinationsDetails.html?destination=batu" class="btn">Discover More →</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Visit Brunei, Discover Brunei one place at time.</p>
+        <p>&copy; 2026 Visit Brunei 🇧🇳. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
