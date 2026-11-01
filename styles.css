@@ -445,11 +445,16 @@ body.dark-mode a:focus-visible, body.dark-mode button:focus-visible, body.dark-m
 
 /*adjustments*/
 body.dark-mode .event-content h3, body.dark-mode .event-content p {
-    color: #000000;
+    color: #FFFFFF;
 }
 
 body.dark-mode .event-content li {
-    color: #000000;
+    color: #FFFFFF;
+}
+
+body.dark-mode .event-card {
+    background-color: #071B2D;
+    outline-color: #EF3340;
 }
 
 /*============================================================*/
