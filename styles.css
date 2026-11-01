@@ -377,7 +377,7 @@ body.dark-mode .form-contact {
     background-color: #070d18;
 }
 
-/*destination card*/
+/*attraction card*/
 body.dark-mode .attraction-card {
     background-color: #071B2D;
     border-color: 15px solid #EF3340 ;
@@ -454,7 +454,7 @@ body.dark-mode .event-content li {
 
 body.dark-mode .event-card {
     background-color: #071B2D;
-    outline-color: #EF3340;
+    border: 1px solid #64748b;
 }
 
 /*============================================================*/
