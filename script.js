@@ -20,7 +20,7 @@ if (themeToggle) {
     })
 }
 
-/*searching funcyion*/
+/*searching function*/
 const locationSearch = document.getElementById("destinationSearch");
 const locationCard = document.querySelectorAll(".attraction-card");
 
