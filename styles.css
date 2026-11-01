@@ -448,6 +448,10 @@ body.dark-mode .event-content h3, body.dark-mode .event-content p {
     color: #000000;
 }
 
+body.dark-mode .event-content li {
+    color: #000000;
+}
+
 /*============================================================*/
 
 /*dynamic webpage*/
