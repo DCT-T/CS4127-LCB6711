@@ -209,14 +209,14 @@ if (attraction && attractionName) {
 
 /*fav storage*/
 function getFavourites () {
-    const saved = localStorage.getItem("explorelyFavourites");
+    const saved = localStorage.getItem("visitbruneiFavourites");
 
     return saved ? JSON.parse(saved) : [];
 }
 
 function saveFavourites(favourites) {
     localStorage.setItem(
-        "explorelyFavourites",
+        "visitbruneiFavourites",
         JSON.stringify(favourites)
     );
 }
@@ -287,11 +287,11 @@ function displayFavourites() {
 
         /*makes destination card*/ 
         const card = document.createElement("article");
-        card.className = "destination-card";
+        card.className = "attraction-card";
 
         const image = document.createElement("img");
         image.src = destination.image;
-        image.alt = destination.name
+        image.alt = destination.name;
 
         const content = document.createElement("div");
         content.className = "card-content";
