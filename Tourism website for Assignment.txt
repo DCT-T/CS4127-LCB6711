@@ -48,8 +48,3 @@ TESTING AND DEPLOYMENT
 CONCLUSION
 REFERENCES
 -----
-
-PROBLEM encountered 
-inconsistent colouring  (no defined palleted)
-css wrong name .darkmode instead of darkmode
-2 images in the assignment folder
