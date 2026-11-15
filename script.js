@@ -109,10 +109,10 @@ const destinations = {
         attractions: [
             "Hike the beginner friendly trail",
             "Take in the view of Tutong Town",
-            "Look for any wildlife along the way" //as a local from tutong i once almost stepped on a snake while trying to climb some sections. almost fell back and hit my friend who was also climbing
+            "Look for any wildlife along the way" 
         ]
     },
-    merimbun: { // this place is very beautiful and very quite. tbh not really a lot of stuff to do there but personally i like it
+    merimbun: { 
         name: "Tasek Merimbun",
         description: "Visit Brunei's largest natural lake and designated ASEAN heritage park. Renowned for its blackwater, it is also a ideal place for wildlife photographer to take pictures.",
         image: "https://www.vacationstravel.com/wp-content/uploads/2022/01/Tasek-Merimbun-1024x683.jpg",
